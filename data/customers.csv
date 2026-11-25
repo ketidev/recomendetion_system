@@ -1,0 +1,1001 @@
+customer_id,age,segment,income_band
+C0001,56,Young Professional,Medium
+C0002,46,Student,Low
+C0003,32,Student,Medium
+C0004,60,Young Professional,Low
+C0005,25,Young Professional,Low
+C0006,38,Young Professional,Low
+C0007,56,Student,High
+C0008,36,Young Professional,Medium
+C0009,40,Young Professional,High
+C0010,28,Student,Medium
+C0011,28,Young Professional,Medium
+C0012,41,Student,Medium
+C0013,53,Student,Medium
+C0014,57,Professional,Low
+C0015,41,Young Professional,Medium
+C0016,20,Professional,Low
+C0017,39,Young Professional,Medium
+C0018,19,Young Professional,Medium
+C0019,41,Professional,Low
+C0020,61,Young Professional,Low
+C0021,47,Young Professional,Medium
+C0022,55,Young Professional,Medium
+C0023,19,Young Professional,Low
+C0024,38,Professional,High
+C0025,50,Professional,Low
+C0026,29,Professional,Medium
+C0027,39,Student,High
+C0028,61,Professional,Low
+C0029,42,Professional,Low
+C0030,44,Student,Low
+C0031,59,Student,Medium
+C0032,45,Professional,Low
+C0033,33,Young Professional,Medium
+C0034,32,Professional,Low
+C0035,64,Student,Medium
+C0036,61,Professional,High
+C0037,20,Student,High
+C0038,54,Student,Medium
+C0039,24,Student,Medium
+C0040,38,Professional,Medium
+C0041,26,Young Professional,Medium
+C0042,56,Young Professional,Medium
+C0043,35,Young Professional,Low
+C0044,21,Professional,High
+C0045,42,Young Professional,Medium
+C0046,31,Professional,Low
+C0047,26,Young Professional,Medium
+C0048,43,Young Professional,Medium
+C0049,19,Young Professional,High
+C0050,37,Young Professional,Medium
+C0051,45,Professional,Medium
+C0052,64,Young Professional,Low
+C0053,24,Student,Medium
+C0054,61,Professional,Medium
+C0055,25,Young Professional,Low
+C0056,64,Young Professional,Low
+C0057,52,Professional,Medium
+C0058,31,Young Professional,Low
+C0059,34,Student,Medium
+C0060,53,Professional,Low
+C0061,57,Young Professional,Low
+C0062,21,Young Professional,Low
+C0063,19,Student,High
+C0064,23,Professional,High
+C0065,59,Young Professional,High
+C0066,21,Young Professional,Medium
+C0067,46,Professional,Low
+C0068,35,Professional,Medium
+C0069,43,Student,Medium
+C0070,61,Young Professional,High
+C0071,51,Student,Low
+C0072,27,Professional,Medium
+C0073,53,Student,Low
+C0074,31,Young Professional,Medium
+C0075,48,Professional,Medium
+C0076,65,Professional,Medium
+C0077,32,Young Professional,Medium
+C0078,25,Professional,Medium
+C0079,31,Student,Medium
+C0080,40,Professional,Medium
+C0081,57,Student,High
+C0082,38,Young Professional,High
+C0083,33,Professional,Medium
+C0084,62,Student,Medium
+C0085,35,Student,Medium
+C0086,64,Professional,Medium
+C0087,41,Professional,Low
+C0088,43,Young Professional,High
+C0089,42,Young Professional,Low
+C0090,62,Young Professional,High
+C0091,58,Young Professional,Medium
+C0092,46,Young Professional,Medium
+C0093,32,Student,Medium
+C0094,62,Professional,High
+C0095,18,Young Professional,Medium
+C0096,42,Young Professional,Medium
+C0097,24,Young Professional,Low
+C0098,26,Professional,Medium
+C0099,41,Student,Low
+C0100,18,Young Professional,Medium
+C0101,61,Young Professional,Medium
+C0102,25,Young Professional,Medium
+C0103,41,Student,Low
+C0104,28,Professional,Low
+C0105,34,Professional,Medium
+C0106,25,Young Professional,Low
+C0107,52,Young Professional,Low
+C0108,52,Professional,Low
+C0109,50,Professional,High
+C0110,22,Student,Medium
+C0111,59,Young Professional,Medium
+C0112,56,Young Professional,Low
+C0113,58,Young Professional,Medium
+C0114,45,Professional,Medium
+C0115,24,Professional,Medium
+C0116,26,Professional,Low
+C0117,25,Young Professional,Low
+C0118,29,Student,Low
+C0119,51,Professional,Medium
+C0120,50,Professional,Medium
+C0121,65,Student,Low
+C0122,40,Professional,Low
+C0123,41,Professional,Low
+C0124,54,Young Professional,High
+C0125,52,Young Professional,Low
+C0126,61,Young Professional,Medium
+C0127,57,Student,Medium
+C0128,39,Young Professional,Medium
+C0129,44,Professional,Low
+C0130,52,Student,Low
+C0131,18,Young Professional,Medium
+C0132,52,Young Professional,Medium
+C0133,54,Young Professional,Medium
+C0134,64,Professional,Medium
+C0135,31,Young Professional,Low
+C0136,20,Young Professional,High
+C0137,18,Professional,Medium
+C0138,22,Young Professional,Low
+C0139,43,Student,High
+C0140,31,Young Professional,Medium
+C0141,56,Student,Medium
+C0142,44,Student,Medium
+C0143,26,Young Professional,High
+C0144,32,Young Professional,Medium
+C0145,32,Professional,Low
+C0146,43,Young Professional,Medium
+C0147,59,Young Professional,High
+C0148,30,Young Professional,Low
+C0149,49,Student,Medium
+C0150,56,Young Professional,Medium
+C0151,49,Student,Medium
+C0152,21,Professional,Medium
+C0153,47,Student,High
+C0154,54,Young Professional,Low
+C0155,40,Student,Low
+C0156,56,Professional,Low
+C0157,62,Young Professional,High
+C0158,32,Young Professional,Medium
+C0159,60,Student,Low
+C0160,46,Professional,High
+C0161,53,Student,High
+C0162,30,Professional,High
+C0163,49,Student,High
+C0164,24,Student,Low
+C0165,39,Student,Medium
+C0166,45,Young Professional,Medium
+C0167,19,Young Professional,High
+C0168,59,Student,Medium
+C0169,62,Professional,Medium
+C0170,23,Young Professional,Medium
+C0171,45,Young Professional,Low
+C0172,45,Young Professional,Medium
+C0173,61,Young Professional,High
+C0174,61,Young Professional,High
+C0175,37,Student,Low
+C0176,47,Student,Low
+C0177,28,Professional,Low
+C0178,45,Professional,Medium
+C0179,42,Young Professional,High
+C0180,56,Young Professional,Low
+C0181,50,Young Professional,Medium
+C0182,18,Young Professional,High
+C0183,44,Student,Medium
+C0184,30,Student,Medium
+C0185,58,Professional,Medium
+C0186,20,Young Professional,Medium
+C0187,56,Student,Low
+C0188,23,Student,Medium
+C0189,25,Student,Medium
+C0190,44,Young Professional,High
+C0191,26,Student,Medium
+C0192,54,Student,Medium
+C0193,50,Professional,Low
+C0194,59,Student,Medium
+C0195,61,Young Professional,Low
+C0196,41,Student,Low
+C0197,32,Student,Medium
+C0198,49,Student,High
+C0199,49,Professional,Low
+C0200,41,Professional,Medium
+C0201,58,Professional,High
+C0202,29,Young Professional,Low
+C0203,56,Young Professional,Medium
+C0204,19,Student,Medium
+C0205,20,Young Professional,Medium
+C0206,54,Professional,Low
+C0207,34,Student,Medium
+C0208,19,Student,Medium
+C0209,19,Student,Medium
+C0210,45,Student,Low
+C0211,40,Student,Medium
+C0212,54,Young Professional,Low
+C0213,49,Young Professional,Medium
+C0214,50,Professional,Low
+C0215,18,Professional,High
+C0216,36,Young Professional,Medium
+C0217,19,Young Professional,Medium
+C0218,61,Young Professional,Low
+C0219,43,Young Professional,Medium
+C0220,49,Young Professional,High
+C0221,23,Young Professional,High
+C0222,49,Young Professional,Medium
+C0223,21,Young Professional,Medium
+C0224,28,Young Professional,Medium
+C0225,34,Young Professional,High
+C0226,55,Professional,Medium
+C0227,41,Professional,Medium
+C0228,22,Student,Medium
+C0229,51,Professional,Medium
+C0230,23,Young Professional,Low
+C0231,39,Professional,Medium
+C0232,28,Professional,Medium
+C0233,65,Young Professional,Medium
+C0234,33,Student,Low
+C0235,50,Young Professional,Medium
+C0236,26,Young Professional,Medium
+C0237,23,Young Professional,Medium
+C0238,33,Young Professional,Low
+C0239,46,Student,Medium
+C0240,20,Professional,Medium
+C0241,37,Professional,Medium
+C0242,53,Young Professional,Medium
+C0243,36,Student,Medium
+C0244,43,Young Professional,High
+C0245,20,Student,Low
+C0246,36,Professional,High
+C0247,37,Student,Medium
+C0248,49,Young Professional,Low
+C0249,24,Young Professional,Low
+C0250,58,Young Professional,Medium
+C0251,50,Young Professional,Medium
+C0252,57,Professional,Medium
+C0253,56,Student,Medium
+C0254,35,Student,Medium
+C0255,57,Student,Medium
+C0256,18,Professional,Low
+C0257,28,Professional,Medium
+C0258,45,Young Professional,Medium
+C0259,42,Young Professional,Low
+C0260,40,Young Professional,Low
+C0261,48,Student,Medium
+C0262,47,Professional,Medium
+C0263,59,Young Professional,High
+C0264,52,Young Professional,High
+C0265,24,Young Professional,Medium
+C0266,33,Student,Medium
+C0267,43,Student,Medium
+C0268,65,Professional,Medium
+C0269,19,Student,Low
+C0270,18,Young Professional,Medium
+C0271,65,Student,High
+C0272,29,Young Professional,Medium
+C0273,22,Young Professional,Medium
+C0274,54,Young Professional,Medium
+C0275,49,Professional,Low
+C0276,26,Young Professional,Medium
+C0277,58,Young Professional,Medium
+C0278,52,Young Professional,Low
+C0279,36,Young Professional,Low
+C0280,65,Professional,High
+C0281,33,Professional,Low
+C0282,20,Student,Medium
+C0283,37,Student,Low
+C0284,41,Young Professional,High
+C0285,50,Young Professional,Low
+C0286,41,Student,Medium
+C0287,28,Young Professional,High
+C0288,25,Young Professional,High
+C0289,53,Young Professional,Low
+C0290,55,Professional,High
+C0291,57,Student,Medium
+C0292,37,Student,Medium
+C0293,52,Professional,Low
+C0294,65,Young Professional,Low
+C0295,42,Young Professional,Medium
+C0296,52,Young Professional,Medium
+C0297,42,Student,Medium
+C0298,46,Professional,Medium
+C0299,35,Professional,Medium
+C0300,63,Young Professional,Low
+C0301,35,Young Professional,Medium
+C0302,19,Young Professional,Low
+C0303,52,Young Professional,Medium
+C0304,33,Student,Medium
+C0305,58,Professional,High
+C0306,53,Student,Low
+C0307,50,Professional,Low
+C0308,21,Young Professional,Low
+C0309,50,Student,Low
+C0310,31,Young Professional,Low
+C0311,38,Professional,High
+C0312,65,Professional,Low
+C0313,37,Professional,Low
+C0314,25,Young Professional,Medium
+C0315,24,Young Professional,Medium
+C0316,20,Professional,Medium
+C0317,34,Student,Low
+C0318,50,Young Professional,Medium
+C0319,65,Student,Low
+C0320,29,Professional,Low
+C0321,39,Professional,High
+C0322,39,Student,Low
+C0323,63,Professional,Medium
+C0324,47,Professional,Medium
+C0325,55,Student,Medium
+C0326,55,Young Professional,High
+C0327,62,Professional,Low
+C0328,25,Student,Medium
+C0329,44,Young Professional,High
+C0330,44,Young Professional,Medium
+C0331,51,Professional,High
+C0332,38,Professional,Low
+C0333,47,Professional,Medium
+C0334,50,Young Professional,Low
+C0335,45,Professional,Medium
+C0336,64,Professional,High
+C0337,50,Young Professional,Low
+C0338,22,Professional,Medium
+C0339,65,Student,Low
+C0340,36,Young Professional,Medium
+C0341,21,Student,Medium
+C0342,52,Student,High
+C0343,34,Student,Medium
+C0344,61,Young Professional,Medium
+C0345,45,Young Professional,Low
+C0346,47,Professional,Low
+C0347,46,Student,Low
+C0348,63,Young Professional,Low
+C0349,23,Young Professional,High
+C0350,52,Professional,Medium
+C0351,58,Young Professional,Medium
+C0352,54,Young Professional,Low
+C0353,41,Professional,High
+C0354,46,Young Professional,Medium
+C0355,63,Student,Low
+C0356,48,Student,Medium
+C0357,52,Professional,Medium
+C0358,50,Student,Low
+C0359,38,Professional,Medium
+C0360,49,Young Professional,Medium
+C0361,40,Professional,Low
+C0362,50,Professional,High
+C0363,20,Professional,High
+C0364,35,Young Professional,Medium
+C0365,42,Professional,Medium
+C0366,59,Young Professional,Medium
+C0367,48,Young Professional,Medium
+C0368,20,Young Professional,Medium
+C0369,57,Professional,Low
+C0370,63,Professional,Medium
+C0371,41,Professional,High
+C0372,49,Young Professional,Medium
+C0373,64,Young Professional,Low
+C0374,39,Professional,Medium
+C0375,40,Student,Low
+C0376,19,Student,Low
+C0377,44,Young Professional,Low
+C0378,59,Young Professional,Medium
+C0379,19,Young Professional,Medium
+C0380,43,Student,Medium
+C0381,34,Student,Low
+C0382,57,Student,High
+C0383,50,Professional,High
+C0384,26,Young Professional,High
+C0385,60,Young Professional,Low
+C0386,65,Young Professional,Medium
+C0387,56,Student,High
+C0388,46,Professional,Medium
+C0389,59,Professional,Low
+C0390,43,Student,Low
+C0391,52,Young Professional,Medium
+C0392,42,Professional,High
+C0393,41,Professional,Medium
+C0394,30,Young Professional,Medium
+C0395,24,Young Professional,Low
+C0396,53,Student,Medium
+C0397,62,Professional,High
+C0398,37,Student,Medium
+C0399,18,Professional,Medium
+C0400,25,Young Professional,High
+C0401,63,Young Professional,Low
+C0402,33,Young Professional,Medium
+C0403,31,Student,Low
+C0404,29,Student,Medium
+C0405,40,Student,Medium
+C0406,32,Student,Medium
+C0407,45,Professional,Medium
+C0408,51,Young Professional,Medium
+C0409,19,Student,High
+C0410,49,Professional,Medium
+C0411,40,Professional,Low
+C0412,39,Professional,Medium
+C0413,42,Professional,Medium
+C0414,39,Student,Medium
+C0415,39,Young Professional,High
+C0416,59,Professional,High
+C0417,23,Young Professional,Low
+C0418,32,Student,High
+C0419,60,Professional,Low
+C0420,54,Student,Low
+C0421,50,Student,Low
+C0422,25,Young Professional,High
+C0423,61,Young Professional,Medium
+C0424,61,Young Professional,Low
+C0425,22,Student,Medium
+C0426,56,Professional,Medium
+C0427,21,Young Professional,Low
+C0428,23,Student,High
+C0429,62,Professional,High
+C0430,49,Professional,Medium
+C0431,47,Professional,High
+C0432,64,Professional,Medium
+C0433,52,Young Professional,High
+C0434,57,Young Professional,Medium
+C0435,33,Student,Medium
+C0436,30,Young Professional,Low
+C0437,59,Young Professional,High
+C0438,47,Young Professional,Medium
+C0439,36,Professional,Low
+C0440,34,Young Professional,Low
+C0441,36,Student,Medium
+C0442,45,Student,Medium
+C0443,43,Young Professional,Medium
+C0444,54,Student,High
+C0445,43,Professional,Low
+C0446,40,Young Professional,Medium
+C0447,26,Young Professional,Low
+C0448,29,Young Professional,High
+C0449,18,Professional,High
+C0450,18,Young Professional,Medium
+C0451,64,Young Professional,Medium
+C0452,51,Young Professional,Medium
+C0453,49,Young Professional,Medium
+C0454,65,Professional,High
+C0455,42,Professional,Medium
+C0456,57,Young Professional,Medium
+C0457,62,Professional,Medium
+C0458,18,Professional,High
+C0459,33,Professional,Medium
+C0460,56,Professional,Low
+C0461,22,Young Professional,Medium
+C0462,39,Young Professional,High
+C0463,46,Young Professional,Low
+C0464,20,Professional,Low
+C0465,29,Student,Low
+C0466,43,Professional,Medium
+C0467,33,Professional,Medium
+C0468,54,Student,Medium
+C0469,39,Professional,Medium
+C0470,46,Student,Medium
+C0471,31,Young Professional,Medium
+C0472,45,Professional,High
+C0473,22,Student,Medium
+C0474,64,Professional,High
+C0475,47,Professional,Medium
+C0476,63,Young Professional,Low
+C0477,22,Student,Medium
+C0478,29,Young Professional,Medium
+C0479,33,Young Professional,Medium
+C0480,43,Professional,Low
+C0481,43,Young Professional,Low
+C0482,65,Young Professional,High
+C0483,38,Young Professional,Low
+C0484,56,Young Professional,High
+C0485,53,Professional,Low
+C0486,50,Student,Medium
+C0487,47,Professional,Medium
+C0488,54,Young Professional,Medium
+C0489,40,Professional,Medium
+C0490,27,Young Professional,Low
+C0491,22,Young Professional,Low
+C0492,53,Professional,Medium
+C0493,51,Student,Medium
+C0494,48,Professional,High
+C0495,27,Young Professional,High
+C0496,36,Student,Medium
+C0497,49,Young Professional,Medium
+C0498,18,Professional,Medium
+C0499,22,Student,Low
+C0500,62,Young Professional,High
+C0501,21,Young Professional,Medium
+C0502,33,Young Professional,Medium
+C0503,41,Student,Low
+C0504,33,Professional,Medium
+C0505,19,Professional,Medium
+C0506,45,Professional,High
+C0507,49,Professional,Medium
+C0508,44,Student,Medium
+C0509,37,Professional,High
+C0510,41,Student,Low
+C0511,29,Student,Medium
+C0512,52,Young Professional,Low
+C0513,50,Young Professional,Medium
+C0514,50,Professional,High
+C0515,60,Young Professional,Low
+C0516,54,Young Professional,High
+C0517,29,Young Professional,Low
+C0518,20,Professional,High
+C0519,18,Young Professional,Medium
+C0520,50,Young Professional,High
+C0521,57,Student,Low
+C0522,27,Professional,High
+C0523,60,Young Professional,Medium
+C0524,61,Student,Medium
+C0525,46,Student,High
+C0526,30,Young Professional,Low
+C0527,29,Young Professional,High
+C0528,48,Young Professional,Low
+C0529,63,Professional,Medium
+C0530,19,Student,Medium
+C0531,52,Young Professional,Low
+C0532,40,Professional,Low
+C0533,34,Young Professional,Low
+C0534,43,Young Professional,Medium
+C0535,25,Young Professional,Medium
+C0536,46,Young Professional,Medium
+C0537,43,Professional,Low
+C0538,27,Young Professional,Low
+C0539,43,Professional,Medium
+C0540,51,Student,Low
+C0541,58,Student,High
+C0542,24,Student,High
+C0543,21,Young Professional,Medium
+C0544,62,Young Professional,Medium
+C0545,28,Professional,High
+C0546,46,Young Professional,Low
+C0547,53,Professional,Low
+C0548,42,Student,Low
+C0549,38,Professional,Medium
+C0550,53,Professional,Low
+C0551,27,Professional,Medium
+C0552,54,Professional,High
+C0553,26,Professional,High
+C0554,41,Young Professional,Medium
+C0555,52,Student,Low
+C0556,52,Student,High
+C0557,65,Professional,Medium
+C0558,53,Young Professional,Low
+C0559,35,Professional,Low
+C0560,56,Young Professional,High
+C0561,49,Student,Medium
+C0562,41,Student,High
+C0563,40,Young Professional,High
+C0564,49,Young Professional,Medium
+C0565,54,Student,Medium
+C0566,29,Young Professional,Medium
+C0567,30,Student,Medium
+C0568,40,Young Professional,Medium
+C0569,42,Young Professional,Medium
+C0570,52,Professional,Medium
+C0571,58,Young Professional,High
+C0572,47,Young Professional,Medium
+C0573,34,Student,Medium
+C0574,37,Student,Medium
+C0575,65,Young Professional,Medium
+C0576,42,Young Professional,Medium
+C0577,39,Young Professional,Low
+C0578,30,Young Professional,Medium
+C0579,36,Young Professional,Low
+C0580,53,Professional,Medium
+C0581,29,Professional,Medium
+C0582,58,Student,Medium
+C0583,36,Young Professional,High
+C0584,29,Student,Medium
+C0585,26,Student,Medium
+C0586,24,Professional,Medium
+C0587,45,Student,Medium
+C0588,31,Young Professional,Low
+C0589,48,Young Professional,Low
+C0590,36,Professional,Medium
+C0591,64,Young Professional,Medium
+C0592,33,Student,Low
+C0593,22,Young Professional,Low
+C0594,52,Young Professional,Low
+C0595,29,Student,High
+C0596,42,Young Professional,Medium
+C0597,38,Student,Medium
+C0598,53,Student,Low
+C0599,40,Young Professional,Medium
+C0600,33,Student,Low
+C0601,56,Young Professional,Low
+C0602,62,Young Professional,Medium
+C0603,59,Professional,Low
+C0604,56,Student,Low
+C0605,31,Student,Low
+C0606,48,Student,Low
+C0607,22,Young Professional,Low
+C0608,52,Professional,Medium
+C0609,40,Student,High
+C0610,46,Professional,Medium
+C0611,60,Student,Medium
+C0612,28,Young Professional,Low
+C0613,35,Professional,High
+C0614,64,Professional,Medium
+C0615,29,Professional,Low
+C0616,26,Professional,Medium
+C0617,27,Young Professional,Low
+C0618,61,Professional,Medium
+C0619,34,Student,Medium
+C0620,55,Professional,High
+C0621,24,Young Professional,Medium
+C0622,63,Professional,Medium
+C0623,30,Young Professional,High
+C0624,57,Young Professional,Low
+C0625,59,Young Professional,Low
+C0626,26,Professional,Medium
+C0627,44,Student,Medium
+C0628,19,Student,Medium
+C0629,22,Student,High
+C0630,46,Student,Medium
+C0631,54,Professional,Medium
+C0632,55,Student,Medium
+C0633,36,Professional,High
+C0634,25,Young Professional,High
+C0635,65,Student,High
+C0636,62,Professional,Low
+C0637,18,Young Professional,Medium
+C0638,39,Young Professional,Low
+C0639,34,Young Professional,Low
+C0640,24,Professional,Low
+C0641,42,Student,Medium
+C0642,62,Professional,Medium
+C0643,21,Professional,Low
+C0644,53,Young Professional,Medium
+C0645,23,Student,Medium
+C0646,48,Young Professional,Medium
+C0647,36,Student,Low
+C0648,61,Student,Medium
+C0649,56,Young Professional,Medium
+C0650,44,Young Professional,Low
+C0651,27,Professional,Low
+C0652,43,Professional,Medium
+C0653,36,Professional,High
+C0654,56,Young Professional,Medium
+C0655,20,Young Professional,Medium
+C0656,62,Young Professional,Medium
+C0657,30,Professional,Medium
+C0658,45,Student,Low
+C0659,37,Professional,Medium
+C0660,45,Young Professional,High
+C0661,25,Young Professional,Medium
+C0662,58,Professional,High
+C0663,56,Young Professional,Medium
+C0664,18,Professional,Low
+C0665,20,Professional,High
+C0666,30,Young Professional,Low
+C0667,45,Young Professional,Medium
+C0668,42,Young Professional,Low
+C0669,50,Professional,Low
+C0670,55,Student,Medium
+C0671,23,Young Professional,Low
+C0672,61,Young Professional,Medium
+C0673,62,Professional,Medium
+C0674,49,Student,Low
+C0675,62,Professional,Low
+C0676,64,Professional,Medium
+C0677,38,Student,Medium
+C0678,33,Student,Medium
+C0679,38,Professional,Medium
+C0680,28,Student,High
+C0681,54,Professional,Medium
+C0682,53,Young Professional,Medium
+C0683,52,Student,Medium
+C0684,36,Professional,Low
+C0685,37,Young Professional,Medium
+C0686,35,Young Professional,Medium
+C0687,64,Young Professional,Medium
+C0688,58,Young Professional,Medium
+C0689,31,Student,High
+C0690,32,Young Professional,High
+C0691,48,Professional,High
+C0692,18,Young Professional,Medium
+C0693,20,Young Professional,Medium
+C0694,33,Young Professional,Medium
+C0695,40,Professional,Medium
+C0696,28,Student,Medium
+C0697,29,Professional,Medium
+C0698,27,Young Professional,Medium
+C0699,49,Student,Medium
+C0700,33,Student,Low
+C0701,25,Student,Medium
+C0702,55,Young Professional,Low
+C0703,29,Young Professional,High
+C0704,41,Professional,Medium
+C0705,45,Young Professional,Low
+C0706,25,Student,Low
+C0707,45,Young Professional,Medium
+C0708,53,Professional,Medium
+C0709,43,Student,Medium
+C0710,25,Student,Low
+C0711,45,Student,Medium
+C0712,45,Professional,Medium
+C0713,54,Young Professional,Medium
+C0714,58,Young Professional,Medium
+C0715,53,Professional,Medium
+C0716,44,Professional,Low
+C0717,34,Young Professional,High
+C0718,26,Professional,Medium
+C0719,50,Student,Medium
+C0720,37,Student,Low
+C0721,30,Young Professional,Medium
+C0722,45,Student,Low
+C0723,65,Young Professional,Medium
+C0724,46,Professional,High
+C0725,30,Student,Medium
+C0726,63,Student,Low
+C0727,52,Young Professional,Low
+C0728,23,Professional,Medium
+C0729,35,Young Professional,Low
+C0730,22,Young Professional,Low
+C0731,64,Student,Medium
+C0732,42,Student,Medium
+C0733,19,Professional,Low
+C0734,27,Professional,High
+C0735,47,Student,Low
+C0736,62,Professional,High
+C0737,22,Young Professional,Medium
+C0738,50,Professional,High
+C0739,18,Young Professional,Medium
+C0740,35,Young Professional,High
+C0741,49,Young Professional,High
+C0742,64,Young Professional,Low
+C0743,28,Student,High
+C0744,38,Student,Medium
+C0745,43,Young Professional,Medium
+C0746,42,Professional,Medium
+C0747,39,Student,Medium
+C0748,44,Young Professional,Low
+C0749,30,Professional,Medium
+C0750,50,Student,Medium
+C0751,51,Young Professional,Medium
+C0752,58,Young Professional,High
+C0753,52,Professional,Medium
+C0754,18,Student,Medium
+C0755,38,Young Professional,Low
+C0756,65,Professional,Low
+C0757,23,Professional,Low
+C0758,45,Young Professional,Medium
+C0759,34,Young Professional,Low
+C0760,22,Young Professional,High
+C0761,48,Professional,Medium
+C0762,22,Young Professional,Medium
+C0763,55,Student,Medium
+C0764,20,Professional,Low
+C0765,40,Young Professional,Medium
+C0766,54,Young Professional,Medium
+C0767,54,Student,Medium
+C0768,27,Young Professional,Medium
+C0769,27,Young Professional,High
+C0770,36,Young Professional,High
+C0771,34,Student,Medium
+C0772,38,Young Professional,Medium
+C0773,31,Professional,Medium
+C0774,26,Student,Low
+C0775,63,Professional,Medium
+C0776,18,Young Professional,Low
+C0777,62,Professional,Medium
+C0778,30,Professional,Medium
+C0779,21,Young Professional,Low
+C0780,18,Professional,High
+C0781,57,Professional,High
+C0782,49,Young Professional,Medium
+C0783,51,Young Professional,Medium
+C0784,45,Young Professional,High
+C0785,48,Professional,Low
+C0786,25,Professional,Medium
+C0787,56,Professional,Low
+C0788,43,Young Professional,Medium
+C0789,51,Professional,Low
+C0790,20,Student,High
+C0791,29,Young Professional,High
+C0792,18,Student,Low
+C0793,61,Young Professional,Medium
+C0794,22,Young Professional,High
+C0795,47,Young Professional,Medium
+C0796,47,Young Professional,High
+C0797,34,Young Professional,Medium
+C0798,65,Young Professional,Medium
+C0799,64,Student,Low
+C0800,40,Young Professional,Low
+C0801,32,Student,Medium
+C0802,54,Student,Medium
+C0803,38,Young Professional,Medium
+C0804,31,Young Professional,Medium
+C0805,19,Young Professional,Medium
+C0806,28,Young Professional,High
+C0807,56,Young Professional,High
+C0808,55,Professional,Medium
+C0809,51,Young Professional,High
+C0810,55,Young Professional,Medium
+C0811,51,Student,Medium
+C0812,35,Young Professional,High
+C0813,47,Young Professional,Low
+C0814,32,Young Professional,Low
+C0815,44,Young Professional,High
+C0816,51,Young Professional,Medium
+C0817,55,Young Professional,High
+C0818,50,Professional,High
+C0819,41,Professional,Low
+C0820,32,Professional,High
+C0821,47,Professional,Medium
+C0822,59,Student,Medium
+C0823,34,Student,Medium
+C0824,22,Student,High
+C0825,46,Young Professional,Low
+C0826,21,Professional,Medium
+C0827,27,Student,Medium
+C0828,34,Professional,Medium
+C0829,27,Student,Medium
+C0830,34,Professional,Low
+C0831,37,Young Professional,Low
+C0832,41,Student,Medium
+C0833,22,Young Professional,High
+C0834,51,Young Professional,Low
+C0835,23,Young Professional,Low
+C0836,19,Young Professional,High
+C0837,30,Professional,Low
+C0838,60,Young Professional,High
+C0839,60,Young Professional,Medium
+C0840,65,Young Professional,High
+C0841,28,Professional,Low
+C0842,64,Young Professional,Low
+C0843,40,Young Professional,Medium
+C0844,33,Student,High
+C0845,48,Student,Medium
+C0846,28,Young Professional,Low
+C0847,33,Student,Medium
+C0848,25,Young Professional,Medium
+C0849,21,Professional,Medium
+C0850,57,Student,Medium
+C0851,21,Young Professional,High
+C0852,42,Young Professional,Medium
+C0853,20,Professional,Low
+C0854,49,Young Professional,Medium
+C0855,20,Professional,Low
+C0856,44,Young Professional,Medium
+C0857,46,Student,Medium
+C0858,49,Young Professional,Low
+C0859,36,Professional,Medium
+C0860,38,Young Professional,Low
+C0861,22,Professional,High
+C0862,35,Professional,High
+C0863,45,Student,Low
+C0864,59,Student,High
+C0865,39,Young Professional,Medium
+C0866,38,Young Professional,Low
+C0867,23,Professional,Low
+C0868,18,Professional,Medium
+C0869,22,Young Professional,Medium
+C0870,58,Student,Medium
+C0871,29,Professional,Low
+C0872,43,Young Professional,Low
+C0873,63,Professional,Medium
+C0874,51,Young Professional,Low
+C0875,31,Young Professional,Low
+C0876,43,Student,Low
+C0877,62,Young Professional,High
+C0878,44,Young Professional,High
+C0879,26,Young Professional,Medium
+C0880,43,Student,High
+C0881,64,Professional,Medium
+C0882,39,Professional,Medium
+C0883,64,Student,Low
+C0884,47,Student,Medium
+C0885,60,Student,High
+C0886,65,Young Professional,Medium
+C0887,34,Young Professional,Medium
+C0888,43,Young Professional,Medium
+C0889,53,Student,Low
+C0890,18,Young Professional,High
+C0891,25,Young Professional,Medium
+C0892,52,Young Professional,Medium
+C0893,32,Professional,Medium
+C0894,64,Student,Medium
+C0895,39,Young Professional,Low
+C0896,31,Young Professional,Medium
+C0897,43,Young Professional,Low
+C0898,45,Professional,Medium
+C0899,40,Young Professional,High
+C0900,31,Professional,High
+C0901,41,Student,Medium
+C0902,19,Student,Medium
+C0903,62,Professional,Low
+C0904,43,Young Professional,Medium
+C0905,31,Young Professional,Low
+C0906,24,Student,Medium
+C0907,20,Student,Low
+C0908,64,Professional,Low
+C0909,40,Student,Medium
+C0910,63,Young Professional,Low
+C0911,60,Student,Medium
+C0912,64,Young Professional,Medium
+C0913,62,Student,Low
+C0914,35,Young Professional,Medium
+C0915,55,Student,Low
+C0916,52,Professional,Low
+C0917,32,Student,Medium
+C0918,42,Young Professional,Low
+C0919,54,Professional,High
+C0920,45,Young Professional,Low
+C0921,27,Young Professional,Low
+C0922,56,Young Professional,Medium
+C0923,34,Young Professional,Medium
+C0924,56,Young Professional,Low
+C0925,39,Professional,Medium
+C0926,43,Young Professional,Low
+C0927,61,Young Professional,High
+C0928,42,Professional,Medium
+C0929,34,Young Professional,Medium
+C0930,30,Student,High
+C0931,37,Young Professional,Medium
+C0932,42,Professional,High
+C0933,21,Student,Medium
+C0934,27,Young Professional,High
+C0935,20,Student,Low
+C0936,58,Young Professional,Medium
+C0937,62,Student,Medium
+C0938,35,Young Professional,Medium
+C0939,64,Professional,Medium
+C0940,53,Young Professional,Medium
+C0941,64,Young Professional,Low
+C0942,39,Professional,Low
+C0943,51,Professional,Medium
+C0944,64,Student,Medium
+C0945,25,Young Professional,High
+C0946,57,Student,Medium
+C0947,61,Professional,High
+C0948,36,Professional,Medium
+C0949,59,Young Professional,Low
+C0950,58,Professional,Low
+C0951,54,Young Professional,Medium
+C0952,23,Young Professional,Medium
+C0953,43,Student,Low
+C0954,51,Professional,Medium
+C0955,62,Student,High
+C0956,23,Professional,Medium
+C0957,54,Professional,Medium
+C0958,50,Professional,Medium
+C0959,39,Student,Low
+C0960,38,Young Professional,Medium
+C0961,23,Young Professional,Medium
+C0962,23,Young Professional,Low
+C0963,65,Student,Medium
+C0964,21,Professional,Medium
+C0965,47,Young Professional,High
+C0966,28,Young Professional,High
+C0967,47,Young Professional,Low
+C0968,48,Young Professional,Medium
+C0969,41,Young Professional,Medium
+C0970,26,Young Professional,High
+C0971,20,Professional,Low
+C0972,48,Young Professional,Medium
+C0973,57,Professional,Medium
+C0974,54,Professional,Low
+C0975,53,Student,Low
+C0976,41,Professional,Medium
+C0977,48,Student,Medium
+C0978,23,Professional,Medium
+C0979,19,Young Professional,Medium
+C0980,37,Professional,Medium
+C0981,45,Professional,Medium
+C0982,28,Professional,Low
+C0983,21,Professional,High
+C0984,32,Young Professional,Low
+C0985,23,Student,Medium
+C0986,47,Young Professional,Low
+C0987,55,Student,Low
+C0988,19,Young Professional,Medium
+C0989,32,Young Professional,Low
+C0990,28,Professional,High
+C0991,25,Young Professional,Low
+C0992,43,Professional,Medium
+C0993,62,Student,Medium
+C0994,61,Professional,Low
+C0995,22,Professional,Low
+C0996,23,Young Professional,Medium
+C0997,43,Young Professional,Medium
+C0998,21,Professional,Medium
+C0999,36,Student,Medium
+C1000,37,Young Professional,Medium
