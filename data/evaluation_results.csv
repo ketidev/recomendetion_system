@@ -1,0 +1,4 @@
+Method,Precision@5,Recall@5,Hit Rate@5
+Content-Based,0.19320000000000004,0.966,0.966
+Collaborative,0.19540000000000005,0.977,0.977
+Hybrid,0.194,0.97,0.97
