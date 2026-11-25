@@ -96,5 +96,51 @@ plt.tight_layout()
 plt.savefig(OUTPUT_DIR / "customer_segments.png")
 plt.show()
 
+
+
+print("\n--- CUSTOMER INCOME DISTRIBUTION ---")
+
+income_distribution = customers["income_band"].value_counts()
+
+print(income_distribution)
+
+plt.figure(figsize=(8, 5))
+sns.countplot(
+    data=customers,
+    x="income_band",
+    order=["Low", "Medium", "High"]
+)
+plt.title("Customer Income Distribution")
+plt.xlabel("Income Band")
+plt.ylabel("Number of Customers")
+plt.tight_layout()
+plt.savefig(OUTPUT_DIR / "income_distribution.png")
+plt.show()
+
+
+print("\n--- FAVORITE PRODUCT BY CUSTOMER SEGMENT ---")
+
+customer_interactions = (
+    interactions
+    .merge(customers[["customer_id", "segment"]], on="customer_id")
+    .merge(products[["product_id", "product_name"]], on="product_id")
+)
+
+segment_preferences = (
+    customer_interactions
+    .groupby(["segment", "product_name"])
+    .agg(
+        average_rating=("rating", "mean"),
+        interaction_count=("rating", "count")
+    )
+    .reset_index()
+)
+
+favorite_products = segment_preferences.loc[
+    segment_preferences.groupby("segment")["average_rating"].idxmax()
+]
+
+print(favorite_products.round(2).to_string(index=False))
+
 print("\nEDA COMPLETED SUCCESSFULLY!")
 print(f"Charts saved to: {OUTPUT_DIR}")
