@@ -2,13 +2,18 @@
 .env
 .env.*
 !.env.example
+
 client/.env
 client/.env.*
 !client/.env.example
 
+server/.env
+server/.env.*
+!server/.env.example
+
 # Python virtual environments
-venv/
-.venv/
+server/venv/
+server/.venv/
 
 # Python cache files
 __pycache__/
@@ -20,7 +25,7 @@ __pycache__/
 .coverage
 htmlcov/
 
-# Client
+# Client (React / Vite)
 client/node_modules/
 client/dist/
 
