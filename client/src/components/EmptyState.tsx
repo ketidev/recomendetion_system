@@ -1,0 +1,4 @@
+import { Database, RefreshCw } from "lucide-react";
+export default function EmptyState({ title = "No data available", description = "Connect to your API and try again.", onRetry }: { title?: string; description?: string; onRetry?: () => void }) {
+  return <div className="flex min-h-[240px] flex-col items-center justify-center rounded-2xl border border-dashed border-slate-200 bg-white px-5 text-center"><div className="mb-3 rounded-2xl bg-slate-100 p-3 text-slate-400"><Database size={22} /></div><p className="font-semibold text-slate-700">{title}</p><p className="mt-1 max-w-sm text-xs leading-5 text-slate-400">{description}</p>{onRetry && <button onClick={onRetry} className="mt-4 inline-flex items-center gap-2 rounded-lg bg-slate-900 px-3 py-2 text-xs font-semibold text-white"><RefreshCw size={13} /> Retry</button>}</div>;
+}
