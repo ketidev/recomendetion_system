@@ -1,4 +1,37 @@
-venv
+# Environment variables
 .env
+.env.*
+!.env.example
 client/.env
-client/node_modules
+client/.env.*
+!client/.env.example
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Python testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Client
+client/node_modules/
+client/dist/
+
+# Build files
+dist/
+build/
+
+# IDE and editor
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
