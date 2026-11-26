@@ -1,4 +1,4 @@
-# Banking Product Recommendation System
+# Banking Product Recommendation System - Backend
 
 A Python-based banking product recommendation system that analyzes customer profiles, banking products and customer interactions to generate personalized banking product recommendations.
 
