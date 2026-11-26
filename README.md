@@ -1,118 +1,123 @@
-# Banking Product Recommendation System
+# Banking Product Recommender System
 
-A Python-based project that analyzes customer profiles, banking products, and customer interactions to generate personalized banking product recommendations.
+A data-driven banking product recommendation system that analyzes customer characteristics and interaction history to generate personalized banking product recommendations.
 
-The project demonstrates how data analysis and machine learning techniques can help identify customer preferences and recommend relevant banking products.
+The project explores different recommendation approaches, including Content-Based Filtering, Collaborative Filtering and Hybrid Recommendation, to identify relevant products for individual customers.
 
-**Note:** This project uses synthetic data generated for educational and portfolio purposes. No real customer or banking data is used.
+It also includes exploratory data analysis, customer segmentation, product popularity analysis, recommendation evaluation and an interactive dashboard for exploring results.
 
-## Technologies & Libraries
-
-- **Python** – Main programming language
-- **Pandas** – Data manipulation, processing, and analysis
-- **NumPy** – Numerical computing and synthetic data generation
-- **Scikit-learn** – Machine learning techniques and cosine similarity
-- **Matplotlib** – Data visualization
-- **Seaborn** – Statistical data visualization
-
-## Dataset
-
-The project generates three datasets:
-
-| Dataset      | Description                                     |
-| ------------ | ----------------------------------------------- |
-| Customers    | 1,000 customer profiles                         |
-| Products     | 8 banking products with different features      |
-| Interactions | 4,518 customer-product interactions and ratings |
-
-Customer profiles include age, customer segment, and income category.
+**Note:** This project uses synthetic banking data and is developed for educational and portfolio purposes. It is not based on real customer information.
 
 ## Key Features
 
-### 1. Synthetic Data Generation
+- **Synthetic Data Generation:** Creates customer profiles, banking products and customer-product interactions for experimentation.
+- **Exploratory Data Analysis (EDA):** Analyzes customer demographics, product interactions, ratings and data distributions.
+- **Content-Based Filtering:** Recommends products based on customer preferences and product features using cosine similarity.
+- **Collaborative Filtering:** Identifies similar customers based on their interaction history to recommend relevant products.
+- **Hybrid Recommendation:** Combines Content-Based and Collaborative Filtering scores to generate personalized recommendations.
+- **Recommendation Evaluation:** Evaluates recommendation performance using Precision@K, Recall@K and Hit Rate@K.
+- **Customer Segmentation:** Analyzes customer groups based on their characteristics and compares their interaction patterns.
+- **Product Popularity Analysis:** Identifies popular banking products based on customer interactions.
+- **SQL Analytics:** Uses SQL queries to analyze product popularity, customer segments and average ratings.
+- **Interactive Dashboard:** Provides a visual interface for exploring customers, products, recommendations and analytical results.
 
-- Generates customer profiles and banking products.
-- Simulates customer preferences and product interactions.
-- Assigns ratings from 1 to 5.
+## Recommendation Methodology
 
-### 2. Recommendation System
+The system implements three recommendation approaches:
 
-Implements and compares three recommendation approaches:
+### 1. Content-Based Filtering
 
-- **Content-Based Filtering** – Recommends products based on customer interests and product features.
-- **Collaborative Filtering** – Uses similarities between customers and their interaction history.
-- **Hybrid Recommendation** – Combines both approaches (60% Content-Based, 40% Collaborative).
+Recommends products based on similarities between customer preferences and product features.
 
-Generates personalized Top 5 product recommendations and excludes products customers have already interacted with.
+- Uses product feature vectors.
+- Applies cosine similarity to measure similarity.
+- Ranks products according to their relevance to customer preferences.
 
-### 3. Model Evaluation
+### 2. Collaborative Filtering
 
-Evaluates recommendation performance using:
+Uses customer-product interaction history to identify customers with similar behavior.
 
-- Precision@5
-- Recall@5
-- Hit Rate@5
+- Builds a customer-product interaction matrix.
+- Calculates customer similarity using cosine similarity.
+- Uses similar customers' interactions to generate recommendations.
 
-Compares all three recommendation approaches and exports evaluation results to CSV.
+### 3. Hybrid Recommendation
 
-### 4. Exploratory Data Analysis (EDA)
+Combines Content-Based and Collaborative Filtering to leverage both product characteristics and customer behavior.
 
-Analyzes customer and product data, including:
+The current implementation uses the following weighted combination:
 
-- Data quality: missing values and duplicates.
-- Customer demographics and income distribution.
-- Customer segments.
-- Product popularity and average ratings.
-- Product ratings across customer segments.
+`Hybrid Score = 0.6 × Content Score + 0.4 × Collaborative Score`
 
-Generates visual reports using Matplotlib and Seaborn.
+The final recommendations are ranked by their hybrid scores.
 
-### 5. Recommendation Explanations
+**Note:** Recommendation scores represent relative ranking values, not probabilities of purchase.
 
-Provides initial feature-based explanations for recommended products, showing relevant product characteristics such as travel, savings, and cashback benefits.
+## Model Evaluation
 
-````
+Recommendation performance is evaluated using:
 
-## Installation & Usage
+- **Precision@K:** Measures the proportion of recommended products that are relevant.
+- **Recall@K:** Measures how many relevant products are included in the recommendations.
+- **Hit Rate@K:** Measures whether at least one relevant product appears in the top K recommendations.
 
-**1. Clone the repository**
+These metrics are used to compare Content-Based, Collaborative and Hybrid recommendation approaches.
 
-```bash
-git clone https://github.com/ketidev/banking-product-recommender.git
-cd banking-product-recommender
-````
+## Analytics
 
-**2. Create and activate a virtual environment**
+The project includes analytical queries and visualizations to explore:
 
-```bash
-python -m venv venv
-```
+- Product popularity based on interaction counts.
+- Customer distribution across segments.
+- Average product ratings across customer segments.
+- Customer-product interaction patterns.
 
-Windows:
+## Tech Stack
 
-```powershell
-.\venv\Scripts\Activate.ps1
-```
+### Data Science & Machine Learning
 
-**3. Install dependencies**
+- **Python** – Main programming language for data processing and recommendation algorithms.
+- **Pandas** – Data manipulation, cleaning and analysis.
+- **NumPy** – Numerical operations and matrix calculations.
+- **Scikit-learn** – Cosine similarity and machine learning utilities.
+- **Matplotlib** – Data visualization.
+- **Seaborn** – Statistical data visualization.
 
-```bash
-pip install -r requirements.txt
-```
+### Backend & Database
 
-**4. Run the project scripts**
+- **FastAPI** – REST API development.
+- **PostgreSQL** – Relational database for storing customers, products and interactions.
+- **Supabase** – Hosted PostgreSQL database.
+- **Psycopg** – PostgreSQL database connectivity.
+- **Python-dotenv** – Environment variable management.
 
-```bash
-python src/generate_data.py
-python src/recommender.py
-python src/evaluate.py
-python src/explain.py
-python src/analyze_data.py
-```
+### Frontend
 
-## Future Improvements
+- **React** – User interface development.
+- **TypeScript** – Type-safe frontend development.
+- **Vite** – Frontend development and build tooling.
+- **Tailwind CSS** – UI styling.
+- **React Router** – Client-side routing.
+- **Context API** – Shared application state management.
+- **Recharts** – Data visualization and interactive charts.
+- **Lucide React** – Icons.
 
-- Improve recommendation evaluation using positive customer ratings.
-- Enhance customer preference analysis and recommendation explanations.
-- Integrate PostgreSQL for analytical SQL queries.
-- Explore Apache Spark for large-scale data processing.
+## Dataset
+
+The project uses a synthetic dataset consisting of:
+
+| Dataset                       | Records |
+| ----------------------------- | ------: |
+| Customers                     |   1,000 |
+| Banking Products              |       8 |
+| Customer-Product Interactions |   4,518 |
+
+The dataset contains customer characteristics, product features and interaction ratings.
+
+## Project Architecture
+
+The application consists of three main parts:
+
+- **Data Science Layer:** Data generation, preprocessing, exploratory analysis, recommendation algorithms and model evaluation.
+- **Backend Layer:** FastAPI endpoints, database connectivity and SQL-based analytics.
+- **Frontend Layer:** Interactive dashboard for exploring recommendations and analytical results.
