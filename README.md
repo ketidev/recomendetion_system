@@ -2,24 +2,24 @@
 
 A data-driven banking product recommendation system that analyzes customer characteristics and interaction history to generate personalized banking product recommendations.
 
-The project explores different recommendation approaches, including Content-Based Filtering, Collaborative Filtering, and Hybrid Recommendation, to identify relevant products for individual customers.
+The project explores different recommendation approaches, including Content-Based Filtering, Collaborative Filtering and Hybrid Recommendation, to identify relevant products for individual customers.
 
-It also includes exploratory data analysis, customer segmentation, product popularity analysis, recommendation evaluation, and an interactive dashboard for exploring results.
+It also includes exploratory data analysis, customer segmentation, product popularity analysis, recommendation evaluation and an interactive dashboard for exploring results.
 
 **Note:** This project uses synthetic banking data and is developed for educational and portfolio purposes. It is not based on real customer information.
 
 ## Key Features
 
-- **Synthetic Data Generation:** Creates customer profiles, banking products, and customer-product interactions for experimentation.
-- **Exploratory Data Analysis (EDA):** Analyzes customer demographics, product interactions, ratings, and data distributions.
+- **Synthetic Data Generation:** Creates customer profiles, banking products and customer-product interactions for experimentation.
+- **Exploratory Data Analysis (EDA):** Analyzes customer demographics, product interactions, ratings and data distributions.
 - **Content-Based Filtering:** Recommends products based on customer preferences and product features using cosine similarity.
 - **Collaborative Filtering:** Identifies similar customers based on their interaction history to recommend relevant products.
 - **Hybrid Recommendation:** Combines Content-Based and Collaborative Filtering scores to generate personalized recommendations.
-- **Recommendation Evaluation:** Evaluates recommendation performance using Precision@K, Recall@K, and Hit Rate@K.
+- **Recommendation Evaluation:** Evaluates recommendation performance using Precision@K, Recall@K and Hit Rate@K.
 - **Customer Segmentation:** Analyzes customer groups based on their characteristics and compares their interaction patterns.
 - **Product Popularity Analysis:** Identifies popular banking products based on customer interactions.
-- **SQL Analytics:** Uses SQL queries to analyze product popularity, customer segments, and average ratings.
-- **Interactive Dashboard:** Provides a visual interface for exploring customers, products, recommendations, and analytical results.
+- **SQL Analytics:** Uses SQL queries to analyze product popularity, customer segments and average ratings.
+- **Interactive Dashboard:** Provides a visual interface for exploring customers, products, recommendations and analytical results.
 
 ## Recommendation Methodology
 
@@ -61,7 +61,7 @@ Recommendation performance is evaluated using:
 - **Recall@K:** Measures how many relevant products are included in the recommendations.
 - **Hit Rate@K:** Measures whether at least one relevant product appears in the top K recommendations.
 
-These metrics are used to compare Content-Based, Collaborative, and Hybrid recommendation approaches.
+These metrics are used to compare Content-Based, Collaborative and Hybrid recommendation approaches.
 
 ## Analytics
 
@@ -77,7 +77,7 @@ The project includes analytical queries and visualizations to explore:
 ### Data Science & Machine Learning
 
 - **Python** – Main programming language for data processing and recommendation algorithms.
-- **Pandas** – Data manipulation, cleaning, and analysis.
+- **Pandas** – Data manipulation, cleaning and analysis.
 - **NumPy** – Numerical operations and matrix calculations.
 - **Scikit-learn** – Cosine similarity and machine learning utilities.
 - **Matplotlib** – Data visualization.
@@ -86,7 +86,7 @@ The project includes analytical queries and visualizations to explore:
 ### Backend & Database
 
 - **FastAPI** – REST API development.
-- **PostgreSQL** – Relational database for storing customers, products, and interactions.
+- **PostgreSQL** – Relational database for storing customers, products and interactions.
 - **Supabase** – Hosted PostgreSQL database.
 - **Psycopg** – PostgreSQL database connectivity.
 - **Python-dotenv** – Environment variable management.
@@ -112,12 +112,12 @@ The project uses a synthetic dataset consisting of:
 | Banking Products              |       8 |
 | Customer-Product Interactions |   4,518 |
 
-The dataset contains customer characteristics, product features, and interaction ratings.
+The dataset contains customer characteristics, product features and interaction ratings.
 
 ## Project Architecture
 
 The application consists of three main parts:
 
-- **Data Science Layer:** Data generation, preprocessing, exploratory analysis, recommendation algorithms, and model evaluation.
-- **Backend Layer:** FastAPI endpoints, database connectivity, and SQL-based analytics.
+- **Data Science Layer:** Data generation, preprocessing, exploratory analysis, recommendation algorithms and model evaluation.
+- **Backend Layer:** FastAPI endpoints, database connectivity and SQL-based analytics.
 - **Frontend Layer:** Interactive dashboard for exploring recommendations and analytical results.

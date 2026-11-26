@@ -1,16 +1,16 @@
 # Banking Product Recommender – Frontend
 
-A React-based web application for exploring banking products, generating personalized recommendations, and visualizing customer and product analytics.
+A React-based web application for exploring banking products, generating personalized recommendations and visualizing customer and product analytics.
 
-The frontend communicates with a FastAPI backend to retrieve customer data, product information, recommendations, and analytics from a Supabase PostgreSQL database.
+The frontend communicates with a FastAPI backend to retrieve customer data, product information, recommendations and analytics from a Supabase PostgreSQL database.
 
 ## Features
 
-- **Dashboard:** Overview of key statistics, customer segments, and popular banking products.
+- **Dashboard:** Overview of key statistics, customer segments and popular banking products.
 - **Recommendations:** Generate personalized banking product recommendations for selected customers.
-- **Customers:** Browse, search, and filter customer records.
+- **Customers:** Browse, search and filter customer records.
 - **Products:** Explore available banking products and their characteristics.
-- **Analytics:** Visualize product popularity, customer segments, and average ratings using charts.
+- **Analytics:** Visualize product popularity, customer segments and average ratings using charts.
 - **API Integration:** Retrieve data from the FastAPI backend through REST API endpoints.
 - **Loading & Error States:** Handle data loading and API errors.
 
@@ -66,7 +66,7 @@ The frontend communicates with the FastAPI backend using the Fetch API.
 
 API requests are organized in `src/services/api.ts`, while shared application data is managed through React Context API.
 
-React Hooks (`useEffect` and `useState`) are used for data fetching, state updates, loading indicators, and error handling.
+React Hooks (`useEffect` and `useState`) are used for data fetching, state updates, loading indicators and error handling.
 
 ## Notes
 
