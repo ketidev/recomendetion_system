@@ -1,23 +1,27 @@
 # Banking Product Recommendation System
 
-A Python-based project that analyzes customer profiles, banking products, and customer interactions to generate personalized banking product recommendations.
+A Python-based banking product recommendation system that analyzes customer profiles, banking products and customer interactions to generate personalized banking product recommendations.
 
-The project demonstrates how data analysis and machine learning techniques can help identify customer preferences and recommend relevant banking products.
+The project demonstrates how data analysis, recommendation algorithms and SQL queries can help identify customer preferences, analyze product popularity and recommend relevant banking products.
 
 **Note:** This project uses synthetic data generated for educational and portfolio purposes. No real customer or banking data is used.
 
 ## Technologies & Libraries
 
 - **Python** – Main programming language
-- **Pandas** – Data manipulation, processing, and analysis
+- **Pandas** – Data manipulation, processing and analysis
 - **NumPy** – Numerical computing and synthetic data generation
-- **Scikit-learn** – Machine learning techniques and cosine similarity
+- **Scikit-learn** – Recommendation algorithms and cosine similarity
 - **Matplotlib** – Data visualization
 - **Seaborn** – Statistical data visualization
+- **PostgreSQL (Supabase)** – Database for storing and querying project data
+- **Psycopg** – PostgreSQL database connection
+- **FastAPI** – REST API development
+- **Uvicorn** – ASGI server
 
 ## Dataset
 
-The project generates three datasets:
+The project generates three synthetic datasets:
 
 | Dataset      | Description                                     |
 | ------------ | ----------------------------------------------- |
@@ -25,7 +29,7 @@ The project generates three datasets:
 | Products     | 8 banking products with different features      |
 | Interactions | 4,518 customer-product interactions and ratings |
 
-Customer profiles include age, customer segment, and income category.
+Customer profiles include age, customer segment and income category.
 
 ## Key Features
 
@@ -34,16 +38,17 @@ Customer profiles include age, customer segment, and income category.
 - Generates customer profiles and banking products.
 - Simulates customer preferences and product interactions.
 - Assigns ratings from 1 to 5.
+- Exports generated datasets to CSV files.
 
 ### 2. Recommendation System
 
-Implements and compares three recommendation approaches:
+Implements three recommendation approaches:
 
 - **Content-Based Filtering** – Recommends products based on customer interests and product features.
 - **Collaborative Filtering** – Uses similarities between customers and their interaction history.
 - **Hybrid Recommendation** – Combines both approaches (60% Content-Based, 40% Collaborative).
 
-Generates personalized Top 5 product recommendations and excludes products customers have already interacted with.
+Generates personalized Top-N product recommendations and excludes products customers have already interacted with.
 
 ### 3. Model Evaluation
 
@@ -69,20 +74,26 @@ Generates visual reports using Matplotlib and Seaborn.
 
 ### 5. Recommendation Explanations
 
-Provides initial feature-based explanations for recommended products, showing relevant product characteristics such as travel, savings, and cashback benefits.
+Provides initial feature-based explanations for recommended products, showing relevant product characteristics such as travel, savings and cashback benefits.
 
-````
+### 6. Database Integration
+
+Uses Supabase-hosted PostgreSQL to store and manage project data.
+
+- Loads customers, products and interactions from CSV files into PostgreSQL.
+- Uses SQL queries to retrieve and analyze data.
+- Supports database-backed recommendation calculations.
 
 ## Installation & Usage
 
-**1. Clone the repository**
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/ketidev/banking-product-recommender.git
 cd banking-product-recommender
-````
+```
 
-**2. Create and activate a virtual environment**
+### 2. Create and activate a virtual environment
 
 ```bash
 python -m venv venv
@@ -94,25 +105,32 @@ Windows:
 .\venv\Scripts\Activate.ps1
 ```
 
-**3. Install dependencies**
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-**4. Run the project scripts**
+### 4. Configure environment variables
 
-```bash
-python src/generate_data.py
-python src/recommender.py
-python src/evaluate.py
-python src/explain.py
-python src/analyze_data.py
+Create a `.env` file in the project root:
+
+```env
+DATABASE_URL=your_supabase_postgresql_connection_string
 ```
 
-## Future Improvements
+Use your Supabase PostgreSQL connection string. Do not commit the `.env` file to GitHub.
 
-- Improve recommendation evaluation using positive customer ratings.
-- Enhance customer preference analysis and recommendation explanations.
-- Integrate PostgreSQL for analytical SQL queries.
-- Explore Apache Spark for large-scale data processing.
+### 5. Start the FastAPI server
+
+```bash
+python -m uvicorn main:app --reload
+```
+
+The API will be available at:
+
+`http://127.0.0.1:8000`
+
+Interactive API documentation (Swagger UI):
+
+`http://127.0.0.1:8000/docs`
